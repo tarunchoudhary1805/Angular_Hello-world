@@ -12,6 +12,9 @@ import { NgIfDirectiveComponent } from './structuralDirectives/ng-if-directive/n
 import { NgSwitchDirectiveComponent } from './structuralDirectives/ng-switch-directive/ng-switch-directive.component';
 import { NgForDirectiveComponent } from './structuralDirectives/ng-for-directive/ng-for-directive.component';
 import { ComponentInteractionComponent } from './component-interaction/component-interaction.component';
+import { TestComponent } from './test/test.component';
+import { PipesComponent } from './pipes/pipes.component';
+import { ServicesLearnComponent } from './services-learn/services-learn.component';
  
 
 @NgModule({
@@ -25,7 +28,10 @@ import { ComponentInteractionComponent } from './component-interaction/component
     NgIfDirectiveComponent,
     NgSwitchDirectiveComponent,
     NgForDirectiveComponent,
-    ComponentInteractionComponent
+    ComponentInteractionComponent,
+    TestComponent,
+    PipesComponent,
+    ServicesLearnComponent
   ],
   imports: [
     BrowserModule,
