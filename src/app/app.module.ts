@@ -15,6 +15,9 @@ import { ComponentInteractionComponent } from './component-interaction/component
 import { TestComponent } from './test/test.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { ServicesLearnComponent } from './services-learn/services-learn.component';
+import { EmployeeListComponent } from './employee/employee-list/employee-list.component';
+import { EmployeeDetailComponent } from './employee/employee-detail/employee-detail.component';
+import { EmployeeService } from './employee.service';
  
 
 @NgModule({
@@ -31,7 +34,9 @@ import { ServicesLearnComponent } from './services-learn/services-learn.componen
     ComponentInteractionComponent,
     TestComponent,
     PipesComponent,
-    ServicesLearnComponent
+    ServicesLearnComponent,
+    EmployeeListComponent,
+    EmployeeDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +44,8 @@ import { ServicesLearnComponent } from './services-learn/services-learn.componen
     
   ],
   providers: [
+
+    EmployeeService
     
   ],
   bootstrap: [AppComponent]
