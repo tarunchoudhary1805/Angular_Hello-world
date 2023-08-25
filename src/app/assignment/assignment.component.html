@@ -1,0 +1,11 @@
+<p>assignment works!</p>
+
+<input type="text" [(ngModel)]="username" />
+{{ username }}
+<button
+  [disabled]="username == ''"
+  (click)="username = ''"
+  class="btn btn-primary"
+>
+  Click
+</button>

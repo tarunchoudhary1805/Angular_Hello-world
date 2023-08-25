@@ -18,6 +18,7 @@ import { ServicesLearnComponent } from './services-learn/services-learn.componen
 import { EmployeeListComponent } from './employee/employee-list/employee-list.component';
 import { EmployeeDetailComponent } from './employee/employee-detail/employee-detail.component';
 import { EmployeeService } from './employee.service';
+import { AssignmentComponent } from './assignment/assignment.component';
  
 
 @NgModule({
@@ -36,7 +37,8 @@ import { EmployeeService } from './employee.service';
     PipesComponent,
     ServicesLearnComponent,
     EmployeeListComponent,
-    EmployeeDetailComponent
+    EmployeeDetailComponent,
+    AssignmentComponent
   ],
   imports: [
     BrowserModule,
